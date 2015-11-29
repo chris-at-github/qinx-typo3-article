@@ -1,0 +1,15 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            Qinx\Qxarticle\Domain\Model\Page {
+                mapping {
+                    tableName = pages
+                    recordType = Tx_Qxarticle_Page
+                }
+            }
+            
+    	}
+    }
+}
